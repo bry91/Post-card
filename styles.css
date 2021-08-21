@@ -1,6 +1,7 @@
 * {
-	border: 1px dashed red;
+	/* border: 1px dashed red; */
 	min-height: 10px;
+    font-family: cursive;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+    padding: 10px;
 }
 .postcard-header {
 	display: flex;
@@ -44,4 +46,10 @@ body {
 button {
 	background: silver;
 	padding: 5px;
+}
+input {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
 }
